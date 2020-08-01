@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  h2 List of Available Routes
+  ul 
+    li '/'' root directory (current directory)
+    li '/planets' - List all planets
+    li '/planets/:id' - Shows a particular planet based on id number (from 0-8)
+    li '/planets/random' - Shows a random planet from the solar system
