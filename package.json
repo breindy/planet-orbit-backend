@@ -5,6 +5,7 @@
 	"scripts": {
 		"start": "node ./bin/www",
 		"dev": "nodemon --exec ./bin/www",
+		"heroku-postbuild": "npm install",
 		"build": "node ./bin/www"
 	},
 	"dependencies": {
